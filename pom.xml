@@ -4,8 +4,8 @@
                              https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.supplier.accounting</groupId>
-    <artifactId>supplier-accounting</artifactId>
+    <groupId>com.microservices</groupId>
+    <artifactId>parent-microservice</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
 
@@ -17,12 +17,6 @@
 
     <modules>
         <module>services/service-registry</module>
-        <module>services/config-service</module>
-        <module>services/api-gateway</module>
-        <module>services/user-service</module>
-        <module>common/common-jpa</module>
-        <module>common/common-security</module>
-        <module>common/common-dto</module>
     </modules>
 
     <dependencyManagement>
@@ -54,4 +48,3 @@
         </dependency>
     </dependencies>
 </project>
-
